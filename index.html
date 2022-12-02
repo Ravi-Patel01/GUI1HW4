@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ravi Patel Multiplication Table Maker</title>
+<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+<link rel="stylesheet" href="css/smoothness/jquery-ui-1.8.9.custom.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form id="x_y_input">
+<label for="field">X start: </label>
+<input type="text" class="left" id="x_start" name="field1"> <br>
+<label for="field">X end: </label>
+<input type="text" class="left" id="x_end" name="field2"><br>
+  <label for="field">Y start: </label>
+  <input type="text" class="left" id="y_start" name="field3"> <br>
+  <label for="field">Y end: </label>
+  <input type="text" class="left" id="y_end" name="field4">
+<br/>
+<input type="submit" onclick="draw_table()" value="Generate!">
+</form>
+<div id="container">
+  <div id="info"></div>
+</div>
+<p id="demo"></p>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="js/input.js">
+// just for the demos, avoids form submit
+</script>
+</body>
+</html>

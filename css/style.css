@@ -1,0 +1,62 @@
+/* Ravi Patel ravi_patel1@student.uml.edu */
+
+body {
+    background-color: skyblue;
+}
+
+/*gives border and changes font*/
+table, th, td {
+    border: 1px double;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*makes top header stationary*/
+th {
+    top: 0;
+    position: sticky;
+    background-color: steelblue;
+    font-weight: bold;
+}
+
+/*makes border fit content and sits table next to it*/
+form {
+    max-width: fit-content;
+    padding: 10px;
+    border: 4px double black;
+    float:left;
+}
+
+/*selects only left column and makes stationary with bolding*/
+td:nth-child(1) {
+    position: sticky;
+    font-weight: bold;
+    left: 0;
+    background-color: steelblue;
+}
+
+/*some styling for title*/
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-bottom: 4px double black;
+}
+
+td {
+    background-color: slategray;
+}
+
+/*centers warning text to the right and styles*/
+#demo {
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*table margin spaced out, pushes warning text to the right, sets size, and sets overflow*/
+#container {
+    margin-left: 20px;
+    float: left;
+    overflow: auto;
+    max-height: 400px;
+    max-width: 400px;
+}
