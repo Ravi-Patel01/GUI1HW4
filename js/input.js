@@ -104,7 +104,6 @@ function checkvals() {
             number: true,
             min: -50,
             max: 50,
-            lessThan: "#field1"
           },
           field3: {
             required: true,
@@ -118,7 +117,6 @@ function checkvals() {
             number: true,
             min: -50,
             max: 50,
-            lessThan: "#field3"
           },
         },
           messages: {
@@ -133,7 +131,6 @@ function checkvals() {
                 max: "The x end number is too high. x end must be greater than -50 but less than 50.",
                 number: "x end value is not a number between -50 and 50.",
                 required: "Error, no x end value inputted. Please enter a value.",
-                //lessThan: "blah"
             },
             field3: {
                 min: "The y start number is too low. y start must be greater than -50 but less than 50.",
@@ -147,7 +144,6 @@ function checkvals() {
                 max: "The y end number is too high. y end must be greater than -50 but less than 50.",
                 number: "y end value is not a number between -50 and 50.",
                 required: "Error, no y end value inputted. Please enter a value.",
-                //lessThan: "blah"
             },
         }
     });
